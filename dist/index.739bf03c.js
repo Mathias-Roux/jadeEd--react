@@ -27342,18 +27342,32 @@ function Home() {
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         className: "home",
         children: [
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                children: "Here is the Home section"
-            }, void 0, false, {
-                fileName: "src/js/Home.js",
-                lineNumber: 11,
-                columnNumber: 5
-            }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
                 scene: "https://prod.spline.design/nBAbTyeZ3Nj3esfW/scene.splinecode"
             }, void 0, false, {
                 fileName: "src/js/Home.js",
+                lineNumber: 11,
+                columnNumber: 6
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "description one"
+            }, void 0, false, {
+                fileName: "src/js/Home.js",
                 lineNumber: 12,
+                columnNumber: 6
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "description two"
+            }, void 0, false, {
+                fileName: "src/js/Home.js",
+                lineNumber: 13,
+                columnNumber: 6
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "description three"
+            }, void 0, false, {
+                fileName: "src/js/Home.js",
+                lineNumber: 14,
                 columnNumber: 6
             }, this)
         ]
