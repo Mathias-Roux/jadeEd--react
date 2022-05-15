@@ -14,8 +14,8 @@
 }
 
 .title {
-  font-size: clamp();
   flex-grow: 1;
+  font-size: clamp(89px, 15vw, 159px);
 }
 
 small {
@@ -61,6 +61,13 @@ small {
   left: 0;
 }
 
+@media screen and (min-width: 53em) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
 *, :before, :after {
   box-sizing: border-box;
   margin: 10px;
@@ -78,7 +85,5 @@ a {
 a:visited, :focus {
   color: #000;
 }
-
-
 
 /*# sourceMappingURL=index.ebeadb08.css.map */

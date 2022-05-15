@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import '../styles/App.css'
-import '../styles/Navbar.css'
 
 import { Home } from './Home.js'
 import { About } from './About.js'
@@ -32,7 +31,7 @@ export function App() {
 				<Route path="contact" element={<Contact />} />
 			</Routes>	
 			
-			<small>jadeEd</small>
+			<small>jadeEd_2022</small>
 		</div>
 	)
 }
