@@ -25110,6 +25110,34 @@ function App() {
                 fileName: "src/js/App.js",
                 lineNumber: 9,
                 columnNumber: 4
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "rectangle"
+            }, void 0, false, {
+                fileName: "src/js/App.js",
+                lineNumber: 10,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "titleWrap",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    children: "jadeEd"
+                }, void 0, false, {
+                    fileName: "src/js/App.js",
+                    lineNumber: 12,
+                    columnNumber: 5
+                }, this)
+            }, void 0, false, {
+                fileName: "src/js/App.js",
+                lineNumber: 11,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("small", {
+                children: "jadeEd"
+            }, void 0, false, {
+                fileName: "src/js/App.js",
+                lineNumber: 14,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
