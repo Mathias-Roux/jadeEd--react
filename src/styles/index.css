@@ -2,12 +2,18 @@
 
 *, ::before, ::after {
 	box-sizing: border-box;
-
+	margin: 10px;
+	overflow: hidden;
 }
 
 body{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	background-color: sandybrown;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited, :focus{
+	color: black;
 }

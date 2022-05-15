@@ -1,13 +1,21 @@
 #app {
   width: 95vw;
   height: 97vh;
-  text-align: center;
   position: relative;
 }
 
-h1 {
-  margin: 0;
-  font-size: 19vw;
+.headerWrap {
+  display: flex;
+}
+
+.navbar {
+  flex-direction: column;
+  display: flex;
+}
+
+.title {
+  font-size: clamp();
+  flex-grow: 1;
 }
 
 small {
@@ -47,31 +55,30 @@ small {
 
 .border-left {
   width: 3px;
-  height: 95%;
+  height: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-.rectangle {
-  width: 7%;
-  height: 100px;
-  border-top: 3px solid #000;
-  border-right: 3px solid #000;
-  position: absolute;
-  top: 5%;
-  left: 0;
-}
-
 *, :before, :after {
   box-sizing: border-box;
+  margin: 10px;
+  overflow: hidden;
 }
 
 body {
   background-color: #f4a460;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited, :focus {
+  color: #000;
+}
+
+
 
 /*# sourceMappingURL=index.ebeadb08.css.map */
