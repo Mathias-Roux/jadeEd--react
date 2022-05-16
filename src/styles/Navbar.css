@@ -1,0 +1,15 @@
+.navbar{
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar > a{
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 53em) {
+	.navbar{
+		flex-direction: row;
+		align-items: center;
+	}
+}

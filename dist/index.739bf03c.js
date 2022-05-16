@@ -27059,6 +27059,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
 var _appCss = require("../styles/App.css");
+var _navbarCss = require("../styles/Navbar.css");
 var _homeJs = require("./Home.js");
 var _aboutJs = require("./About.js");
 var _productsJs = require("./Products.js");
@@ -27071,28 +27072,28 @@ function App() {
                 className: "border border-top"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-right"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-bottom"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-left"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -27104,18 +27105,18 @@ function App() {
                         children: "jadeEd"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 22,
+                        lineNumber: 23,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(Navbar, {}, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
@@ -27125,7 +27126,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeJs.Home, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27133,7 +27134,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aboutJs.About, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27141,7 +27142,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_productsJs.Products, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27149,26 +27150,26 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_contactJs.Contact, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 31,
+                        lineNumber: 32,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("small", {
                 children: "jadeEd_2022"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 3
     }, this);
 }
@@ -27182,7 +27183,7 @@ function Navbar() {
                 children: "About"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27190,7 +27191,7 @@ function Navbar() {
                 children: "Products"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27198,13 +27199,13 @@ function Navbar() {
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 3
     }, this);
 }
@@ -27218,7 +27219,7 @@ $RefreshReg$(_c1, "Navbar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../styles/App.css":"goyoj","./About.js":"6CFfO","./Products.js":"62UX7","./Contact.js":"aSBCT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Home.js":"9GqgQ"}],"goyoj":[function() {},{}],"6CFfO":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../styles/App.css":"goyoj","./About.js":"6CFfO","./Products.js":"62UX7","./Contact.js":"aSBCT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Home.js":"9GqgQ","../styles/Navbar.css":"4uEC6"}],"goyoj":[function() {},{}],"6CFfO":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$59be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27338,6 +27339,7 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 var _reactRouterDom = require("react-router-dom");
 var _reactSpline = require("@splinetool/react-spline");
 var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
+var _homeCss = require("../styles/Home.css");
 function Home() {
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         className: "home",
@@ -27346,34 +27348,104 @@ function Home() {
                 scene: "https://prod.spline.design/nBAbTyeZ3Nj3esfW/scene.splinecode"
             }, void 0, false, {
                 fileName: "src/js/Home.js",
-                lineNumber: 11,
-                columnNumber: 6
-            }, this),
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "description one"
-            }, void 0, false, {
-                fileName: "src/js/Home.js",
                 lineNumber: 12,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "description two"
-            }, void 0, false, {
+                className: "description one current",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "Jade is well known for its ornamental"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 14,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "use in Asian and Latin American art"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 15,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/js/Home.js",
                 lineNumber: 13,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "description three"
-            }, void 0, false, {
+                className: "description two",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "The use of jade is for symbolic"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 18,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "and ideological ritual"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 19,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "was influenced by its rarity."
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 20,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/js/Home.js",
-                lineNumber: 14,
+                lineNumber: 17,
+                columnNumber: 6
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "description three",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "Jadeite's color commonly ranges"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 23,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "from white through pale apple green"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 24,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                        className: "paragraph",
+                        children: "to deep blue-green"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 25,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/Home.js",
+                lineNumber: 22,
                 columnNumber: 6
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Home.js",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 4
     }, this);
 }
@@ -27386,7 +27458,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL"}],"hmtzL":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr"}],"hmtzL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Spline
@@ -70117,6 +70189,6 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}]},["kn9T2","ljsGX","ebWYT"], "ebWYT", "parcelRequire656e")
+},{}],"1l6sr":[function() {},{}],"4uEC6":[function() {},{}]},["kn9T2","ljsGX","ebWYT"], "ebWYT", "parcelRequire656e")
 
 //# sourceMappingURL=index.739bf03c.js.map
