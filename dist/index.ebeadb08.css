@@ -121,6 +121,33 @@ figcaption {
   }
 }
 
+.products {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  min-width: 200px;
+}
+
+.spline {
+  height: 200px;
+  background-color: green;
+}
+
+.card > .item {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.card > .price {
+  float: right;
+  margin: 0 15px 0 0;
+}
+
+
+
 .home {
   flex-wrap: wrap;
   justify-content: center;

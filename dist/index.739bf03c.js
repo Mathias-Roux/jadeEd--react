@@ -27367,13 +27367,83 @@ var _react = require("react");
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 var _reactRouterDom = require("react-router-dom");
+var _productsCss = require("../styles/Products.css");
+var _cardCss = require("../styles/Card.css");
 function Products() {
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-        children: "Here is the Products section"
-    }, void 0, false, {
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
+        className: "products",
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "card",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "spline",
+                        children: "spline"
+                    }, void 0, false, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 12,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "item",
+                        children: "Jade perls pracelet"
+                    }, void 0, false, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 13,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "price",
+                        children: "59$"
+                    }, void 0, false, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 14,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/Products.js",
+                lineNumber: 11,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "card",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "spline",
+                        children: "spline"
+                    }, void 0, false, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 17,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "item",
+                        children: "Fancy block & rings"
+                    }, void 0, false, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 18,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "price",
+                        children: "129$"
+                    }, void 0, false, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 19,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/Products.js",
+                lineNumber: 16,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/js/Products.js",
-        lineNumber: 6,
-        columnNumber: 9
+        lineNumber: 10,
+        columnNumber: 3
     }, this);
 }
 _c = Products;
@@ -27385,7 +27455,7 @@ $RefreshReg$(_c, "Products");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aSBCT":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Products.css":"66ZI4","../styles/Card.css":"hCUBW"}],"66ZI4":[function() {},{}],"hCUBW":[function() {},{}],"aSBCT":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$76fd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
