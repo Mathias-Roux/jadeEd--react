@@ -74,6 +74,53 @@ a:visited, :focus {
   color: #000;
 }
 
+.about {
+  margin: 0 3vw;
+}
+
+.about__text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0;
+  display: flex;
+}
+
+.about__paragraph {
+  margin: 0;
+  font-size: clamp(30px, 3vw, 80px);
+}
+
+.about__text > .about__paragraph:last-child {
+  width: 55%;
+}
+
+figure {
+  width: 230px;
+  text-align: center;
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+figcaption {
+  margin: 0;
+}
+
+@media screen and (min-width: 53em) {
+  .about {
+    display: flex;
+  }
+
+  figure {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
 .home {
   flex-wrap: wrap;
   justify-content: center;

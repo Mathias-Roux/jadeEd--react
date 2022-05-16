@@ -27235,13 +27235,74 @@ var _react = require("react");
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 var _reactRouterDom = require("react-router-dom");
+var _aboutCss = require("../styles/About.css");
+var _ppJpg = require("../pp.jpg");
+var _ppJpgDefault = parcelHelpers.interopDefault(_ppJpg);
 function About() {
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-        children: "Here is the About section"
-    }, void 0, false, {
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
+        className: "about",
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "about__text",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "about__paragraph",
+                        children: "jadeEd is an independant"
+                    }, void 0, false, {
+                        fileName: "src/js/About.js",
+                        lineNumber: 13,
+                        columnNumber: 6
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "about__paragraph right",
+                        children: "jade jewelry made by"
+                    }, void 0, false, {
+                        fileName: "src/js/About.js",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "about__paragraph",
+                        children: "me, Elizabeth Montes"
+                    }, void 0, false, {
+                        fileName: "src/js/About.js",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/About.js",
+                lineNumber: 12,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("figure", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                        src: _ppJpgDefault.default,
+                        alt: "profile picture"
+                    }, void 0, false, {
+                        fileName: "src/js/About.js",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("figcaption", {
+                        children: "Hi! i am Elizabeth Montes"
+                    }, void 0, false, {
+                        fileName: "src/js/About.js",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/About.js",
+                lineNumber: 17,
+                columnNumber: 8
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/js/About.js",
-        lineNumber: 6,
-        columnNumber: 9
+        lineNumber: 11,
+        columnNumber: 3
     }, this);
 }
 _c = About;
@@ -27253,7 +27314,44 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"62UX7":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/About.css":"1mg4W","../pp.jpg":"8dykj"}],"1mg4W":[function() {},{}],"8dykj":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('g05j8') + "pp.ae3ca90e.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"62UX7":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b3fb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27341,7 +27439,7 @@ var _reactSpline = require("@splinetool/react-spline");
 var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
 var _homeCss = require("../styles/Home.css");
 function Home() {
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
         className: "home",
         children: [
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
@@ -27354,7 +27452,7 @@ function Home() {
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "description one current",
                 children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "Jade is well known for its ornamental"
                     }, void 0, false, {
@@ -27362,7 +27460,7 @@ function Home() {
                         lineNumber: 14,
                         columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "use in Asian and Latin American art"
                     }, void 0, false, {
@@ -27379,7 +27477,7 @@ function Home() {
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "description two",
                 children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "The use of jade is for symbolic"
                     }, void 0, false, {
@@ -27387,7 +27485,7 @@ function Home() {
                         lineNumber: 18,
                         columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "and ideological ritual"
                     }, void 0, false, {
@@ -27395,7 +27493,7 @@ function Home() {
                         lineNumber: 19,
                         columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "was influenced by its rarity."
                     }, void 0, false, {
@@ -27412,7 +27510,7 @@ function Home() {
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "description three",
                 children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "Jadeite's color commonly ranges"
                     }, void 0, false, {
@@ -27420,7 +27518,7 @@ function Home() {
                         lineNumber: 23,
                         columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "from white through pale apple green"
                     }, void 0, false, {
@@ -27428,7 +27526,7 @@ function Home() {
                         lineNumber: 24,
                         columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         className: "paragraph",
                         children: "to deep blue-green"
                     }, void 0, false, {
@@ -27633,9 +27731,9 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Application", ()=>CT
 );
-var Buffer = require("buffer").Buffer;
 var global = arguments[3];
 var process = require("process");
+var Buffer = require("buffer").Buffer;
 var DT = Object.create;
 var Tu = Object.defineProperty, PT = Object.defineProperties, LT = Object.getOwnPropertyDescriptor, IT = Object.getOwnPropertyDescriptors, RT = Object.getOwnPropertyNames, Au = Object.getOwnPropertySymbols, BT = Object.getPrototypeOf, gm = Object.prototype.hasOwnProperty, Ax = Object.prototype.propertyIsEnumerable;
 var Mx = (i9, e, t)=>e in i9 ? Tu(i9, e, {
@@ -70154,40 +70252,6 @@ module.exports = function(loader, type) {
         });
     };
 };
-
-},{}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return '/';
-}
-function getBaseURL(url) {
-    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error('Origin not found');
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
 
 },{}],"1l6sr":[function() {},{}],"4uEC6":[function() {},{}]},["kn9T2","ljsGX","ebWYT"], "ebWYT", "parcelRequire656e")
 

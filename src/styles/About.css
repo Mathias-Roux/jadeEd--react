@@ -1,0 +1,45 @@
+.about{
+	margin: 0 3vw;
+}
+.about__text{
+	display: flex;
+	flex-direction: column;	
+	margin: 10px 0 0 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.about__paragraph{
+	font-size: clamp(30px, 3vw, 80px);
+	margin: 0;
+}
+
+.about__text > .about__paragraph:last-child{
+	width: 55%;
+}
+
+figure{
+	width: 230px;
+	margin-left: auto;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+	margin: 0;
+}
+
+figcaption{
+	margin: 0;
+}
+
+@media screen and (min-width: 53em){
+	.about{
+		display: flex;
+	}
+
+	figure{
+		width: 350px;
+		margin: 0 auto;
+	}
+}
