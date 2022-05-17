@@ -8,9 +8,9 @@
 	min-width: 200px;
 }
 
-.spline{
+.products canvas{
+	margin: 0;
 	height: 200px;
-	background-color: green;
 }
 
 .card > .item{
