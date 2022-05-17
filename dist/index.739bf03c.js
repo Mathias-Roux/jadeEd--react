@@ -70165,18 +70165,131 @@ parcelHelpers.export(exports, "Contact", ()=>Contact
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
-var _client = require("react-dom/client");
-var _clientDefault = parcelHelpers.interopDefault(_client);
-var _reactRouterDom = require("react-router-dom");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
 function Contact() {
+    _s();
+    const [status, setStatus] = _react.useState("Submit");
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name , email , message  } = e.target.elements;
+        let details = {
+            name: name.value,
+            email: email.value,
+            message: message.value
+        };
+        let response = await fetch("http://localhost:1234/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "appliction/json;charset=utf-8"
+            },
+            body: JSON.stringify(details)
+        });
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+    };
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        className: "contact"
+        className: "contact",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+            onSubmit: handleSubmit,
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                            htmlFor: "name",
+                            children: "Name:"
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 29,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            type: "text",
+                            id: "name",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 30,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 28,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                            htmlFor: "email",
+                            children: "Email:"
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 33,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            type: "email",
+                            id: "email",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 34,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 32,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                            htmlFor: "message",
+                            children: "Message:"
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 37,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
+                            id: "message",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 38,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 36,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    type: "submit",
+                    children: status
+                }, void 0, false, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 40,
+                    columnNumber: 10
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/js/Contact.js",
+            lineNumber: 27,
+            columnNumber: 4
+        }, this)
     }, void 0, false, {
         fileName: "src/js/Contact.js",
-        lineNumber: 7,
+        lineNumber: 26,
         columnNumber: 3
     }, this);
 }
+_s(Contact, "qESKK7LDpFTuMSR0UrKu+hcLdmU=");
 _c = Contact;
 var _c;
 $RefreshReg$(_c, "Contact");
@@ -70186,7 +70299,7 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9GqgQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9GqgQ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1d85 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
