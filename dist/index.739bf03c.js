@@ -27630,8 +27630,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Application", ()=>CT
 );
-var global = arguments[3];
 var process = require("process");
+var global = arguments[3];
 var Buffer = require("buffer").Buffer;
 var DT = Object.create;
 var Tu = Object.defineProperty, PT = Object.defineProperties, LT = Object.getOwnPropertyDescriptor, IT = Object.getOwnPropertyDescriptors, RT = Object.getOwnPropertyNames, Au = Object.getOwnPropertySymbols, BT = Object.getPrototypeOf, gm = Object.prototype.hasOwnProperty, Ax = Object.prototype.propertyIsEnumerable;
