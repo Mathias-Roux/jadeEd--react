@@ -27364,9 +27364,6 @@ parcelHelpers.export(exports, "Products", ()=>Products
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
-var _client = require("react-dom/client");
-var _clientDefault = parcelHelpers.interopDefault(_client);
-var _reactRouterDom = require("react-router-dom");
 var _productsCss = require("../styles/Products.css");
 var _cardCss = require("../styles/Card.css");
 var _reactSpline = require("@splinetool/react-spline");
@@ -27378,24 +27375,33 @@ function Products() {
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "card",
                 children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "details",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                className: "item",
+                                children: "Jade perls bracelet >"
+                            }, void 0, false, {
+                                fileName: "src/js/Products.js",
+                                lineNumber: 14,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                className: "price",
+                                children: "59$"
+                            }, void 0, false, {
+                                fileName: "src/js/Products.js",
+                                lineNumber: 15,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/js/Products.js",
+                        lineNumber: 13,
+                        columnNumber: 5
+                    }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
                         scene: "https://prod.spline.design/RPbjpf3iVW6Jp6XI/scene.splinecode"
-                    }, void 0, false, {
-                        fileName: "src/js/Products.js",
-                        lineNumber: 15,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "item",
-                        children: "Jade perls pracelet"
-                    }, void 0, false, {
-                        fileName: "src/js/Products.js",
-                        lineNumber: 16,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "price",
-                        children: "59$"
                     }, void 0, false, {
                         fileName: "src/js/Products.js",
                         lineNumber: 17,
@@ -27404,33 +27410,42 @@ function Products() {
                 ]
             }, void 0, true, {
                 fileName: "src/js/Products.js",
-                lineNumber: 14,
+                lineNumber: 12,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "card",
                 children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
-                        scene: "https://prod.spline.design/moFrVGBi2taw8hnc/scene.splinecode"
-                    }, void 0, false, {
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "details",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                className: "item",
+                                children: "Fancy block & rings >"
+                            }, void 0, false, {
+                                fileName: "src/js/Products.js",
+                                lineNumber: 21,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                className: "price",
+                                children: "129$"
+                            }, void 0, false, {
+                                fileName: "src/js/Products.js",
+                                lineNumber: 22,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/js/Products.js",
                         lineNumber: 20,
                         columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "item",
-                        children: "Fancy block & rings"
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
+                        scene: "https://prod.spline.design/moFrVGBi2taw8hnc/scene.splinecode"
                     }, void 0, false, {
                         fileName: "src/js/Products.js",
-                        lineNumber: 21,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "price",
-                        children: "129$"
-                    }, void 0, false, {
-                        fileName: "src/js/Products.js",
-                        lineNumber: 22,
+                        lineNumber: 24,
                         columnNumber: 5
                     }, this)
                 ]
@@ -27442,7 +27457,7 @@ function Products() {
         ]
     }, void 0, true, {
         fileName: "src/js/Products.js",
-        lineNumber: 13,
+        lineNumber: 11,
         columnNumber: 3
     }, this);
 }
@@ -27455,7 +27470,7 @@ $RefreshReg$(_c, "Products");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Products.css":"66ZI4","../styles/Card.css":"hCUBW","@splinetool/react-spline":"hmtzL"}],"66ZI4":[function() {},{}],"hCUBW":[function() {},{}],"hmtzL":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Products.css":"66ZI4","../styles/Card.css":"hCUBW","@splinetool/react-spline":"hmtzL"}],"66ZI4":[function() {},{}],"hCUBW":[function() {},{}],"hmtzL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Spline
@@ -27630,8 +27645,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Application", ()=>CT
 );
-var process = require("process");
 var global = arguments[3];
+var process = require("process");
 var Buffer = require("buffer").Buffer;
 var DT = Object.create;
 var Tu = Object.defineProperty, PT = Object.defineProperties, LT = Object.getOwnPropertyDescriptor, IT = Object.getOwnPropertyDescriptors, RT = Object.getOwnPropertyNames, Au = Object.getOwnPropertySymbols, BT = Object.getPrototypeOf, gm = Object.prototype.hasOwnProperty, Ax = Object.prototype.propertyIsEnumerable;
@@ -70313,9 +70328,6 @@ parcelHelpers.export(exports, "Home", ()=>Home
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
-var _client = require("react-dom/client");
-var _clientDefault = parcelHelpers.interopDefault(_client);
-var _reactRouterDom = require("react-router-dom");
 var _reactSpline = require("@splinetool/react-spline");
 var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
 var _homeCss = require("../styles/Home.css");
@@ -70327,7 +70339,7 @@ function Home() {
                 scene: "https://prod.spline.design/nBAbTyeZ3Nj3esfW/scene.splinecode"
             }, void 0, false, {
                 fileName: "src/js/Home.js",
-                lineNumber: 12,
+                lineNumber: 10,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -70338,7 +70350,7 @@ function Home() {
                         children: "Jade is well known for its ornamental"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 14,
+                        lineNumber: 12,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -70346,13 +70358,13 @@ function Home() {
                         children: "use in Asian and Latin American art"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 15,
+                        lineNumber: 13,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Home.js",
-                lineNumber: 13,
+                lineNumber: 11,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -70363,7 +70375,7 @@ function Home() {
                         children: "The use of jade is for symbolic"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 18,
+                        lineNumber: 16,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -70371,7 +70383,7 @@ function Home() {
                         children: "and ideological ritual"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 19,
+                        lineNumber: 17,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -70379,13 +70391,13 @@ function Home() {
                         children: "was influenced by its rarity."
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 20,
+                        lineNumber: 18,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Home.js",
-                lineNumber: 17,
+                lineNumber: 15,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -70396,7 +70408,7 @@ function Home() {
                         children: "Jadeite's color commonly ranges"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 23,
+                        lineNumber: 21,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -70404,7 +70416,7 @@ function Home() {
                         children: "from white through pale apple green"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 24,
+                        lineNumber: 22,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -70412,19 +70424,19 @@ function Home() {
                         children: "to deep blue-green"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 25,
+                        lineNumber: 23,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Home.js",
-                lineNumber: 22,
+                lineNumber: 20,
                 columnNumber: 6
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Home.js",
-        lineNumber: 11,
+        lineNumber: 9,
         columnNumber: 4
     }, this);
 }
@@ -70437,6 +70449,6 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr"}],"1l6sr":[function() {},{}],"4uEC6":[function() {},{}]},["kn9T2","ljsGX","ebWYT"], "ebWYT", "parcelRequire656e")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr"}],"1l6sr":[function() {},{}],"4uEC6":[function() {},{}]},["kn9T2","ljsGX","ebWYT"], "ebWYT", "parcelRequire656e")
 
 //# sourceMappingURL=index.739bf03c.js.map

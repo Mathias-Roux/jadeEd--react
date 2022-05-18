@@ -1,0 +1,25 @@
+.card{
+	display: flex;
+	min-width: 300px;
+}
+
+.products canvas{
+	margin: 0;
+}
+
+.card .details > .item{
+	text-align: center;
+	font-weight: lighter;
+}
+
+.card .details > .price{
+	float: right;
+	margin: 0 15px 0 0;
+}
+
+@media screen and (min-width: 90em){
+	.products canvas{
+		width: 444px !important;
+		height: 444px !important;
+	}
+}

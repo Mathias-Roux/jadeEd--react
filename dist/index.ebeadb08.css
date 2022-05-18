@@ -63,6 +63,7 @@ small {
 
 body {
   background-color: #f4a460;
+  overflow: hidden;
 }
 
 a {
@@ -127,25 +128,30 @@ figcaption {
 }
 
 .card {
-  min-width: 200px;
+  min-width: 300px;
+  display: flex;
 }
 
 .products canvas {
-  height: 200px;
   margin: 0;
 }
 
-.card > .item {
+.card .details > .item {
   text-align: center;
   font-weight: lighter;
 }
 
-.card > .price {
+.card .details > .price {
   float: right;
   margin: 0 15px 0 0;
 }
 
-
+@media screen and (min-width: 90em) {
+  .products canvas {
+    width: 444px !important;
+    height: 444px !important;
+  }
+}
 
 .contact {
   max-width: 80%;

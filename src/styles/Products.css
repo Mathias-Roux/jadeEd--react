@@ -3,22 +3,3 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
-
-.card{
-	min-width: 200px;
-}
-
-.products canvas{
-	margin: 0;
-	height: 200px;
-}
-
-.card > .item{
-	text-align: center;
-	font-weight: lighter;
-}
-
-.card > .price{
-	float: right;
-	margin: 0 15px 0 0;
-}

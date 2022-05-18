@@ -3,11 +3,11 @@
 *, ::before, ::after {
 	box-sizing: border-box;
 	margin: 10px;
-	/*overflow: hidden;*/
 }
 
 body{
 	background-color: sandybrown;
+	overflow: hidden;
 }
 
 a{
