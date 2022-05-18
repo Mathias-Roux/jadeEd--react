@@ -70166,6 +70166,7 @@ parcelHelpers.export(exports, "Contact", ()=>Contact
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _contactCss = require("../styles/Contact.css");
 var _s = $RefreshSig$();
 function Contact() {
     _s();
@@ -70202,7 +70203,7 @@ function Contact() {
                             children: "Name:"
                         }, void 0, false, {
                             fileName: "src/js/Contact.js",
-                            lineNumber: 29,
+                            lineNumber: 35,
                             columnNumber: 12
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -70211,13 +70212,13 @@ function Contact() {
                             required: true
                         }, void 0, false, {
                             fileName: "src/js/Contact.js",
-                            lineNumber: 30,
+                            lineNumber: 36,
                             columnNumber: 12
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/js/Contact.js",
-                    lineNumber: 28,
+                    lineNumber: 34,
                     columnNumber: 10
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -70227,7 +70228,7 @@ function Contact() {
                             children: "Email:"
                         }, void 0, false, {
                             fileName: "src/js/Contact.js",
-                            lineNumber: 33,
+                            lineNumber: 39,
                             columnNumber: 12
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -70236,13 +70237,13 @@ function Contact() {
                             required: true
                         }, void 0, false, {
                             fileName: "src/js/Contact.js",
-                            lineNumber: 34,
+                            lineNumber: 40,
                             columnNumber: 12
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/js/Contact.js",
-                    lineNumber: 32,
+                    lineNumber: 38,
                     columnNumber: 10
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -70252,7 +70253,7 @@ function Contact() {
                             children: "Message:"
                         }, void 0, false, {
                             fileName: "src/js/Contact.js",
-                            lineNumber: 37,
+                            lineNumber: 43,
                             columnNumber: 12
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
@@ -70260,13 +70261,13 @@ function Contact() {
                             required: true
                         }, void 0, false, {
                             fileName: "src/js/Contact.js",
-                            lineNumber: 38,
+                            lineNumber: 44,
                             columnNumber: 12
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/js/Contact.js",
-                    lineNumber: 36,
+                    lineNumber: 42,
                     columnNumber: 10
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -70274,18 +70275,18 @@ function Contact() {
                     children: status
                 }, void 0, false, {
                     fileName: "src/js/Contact.js",
-                    lineNumber: 40,
+                    lineNumber: 46,
                     columnNumber: 10
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/js/Contact.js",
-            lineNumber: 27,
+            lineNumber: 33,
             columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "src/js/Contact.js",
-        lineNumber: 26,
+        lineNumber: 32,
         columnNumber: 3
     }, this);
 }
@@ -70299,7 +70300,7 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9GqgQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Contact.css":"d0CXE"}],"d0CXE":[function() {},{}],"9GqgQ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1d85 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

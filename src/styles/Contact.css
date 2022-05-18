@@ -1,3 +1,54 @@
 .contact{
-	background-color: red;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+form > div {
+	display: flex;
+	flex-direction: column;
+}
+
+label{
+	margin-left: 0;
+}
+
+
+#name,
+#email,
+#message{
+	background-color: sandybrown;
+	border-radius: 5px;
+	box-shadow: 4px 4px black;
+	margin: 0;
+	font-size: 20px;
+	width: 100% !important;
+}
+
+#name:focus-visible,
+#email:focus-visible,
+#message:focus-visible{
+	outline: none;
+}
+
+#name,
+#email{
+	border: 1px solid rgb(118, 118, 118);
+}
+
+button{
+	border: none;
+	background-color: sandybrown;
+	font-size: 20px;
+	float: right;
+}
+
+button:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 53em){
+	.contact{
+		max-width: 60%;
+	}
 }

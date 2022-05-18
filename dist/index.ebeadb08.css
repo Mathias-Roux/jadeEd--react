@@ -147,6 +147,55 @@ figcaption {
 
 
 
+.contact {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+form > div {
+  flex-direction: column;
+  display: flex;
+}
+
+label {
+  margin-left: 0;
+}
+
+#name, #email, #message {
+  background-color: #f4a460;
+  border-radius: 5px;
+  margin: 0;
+  font-size: 20px;
+  box-shadow: 4px 4px #000;
+  width: 100% !important;
+}
+
+#name:focus-visible, #email:focus-visible, #message:focus-visible {
+  outline: none;
+}
+
+#name, #email {
+  border: 1px solid #767676;
+}
+
+button {
+  float: right;
+  background-color: #f4a460;
+  border: none;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 53em) {
+  .contact {
+    max-width: 60%;
+  }
+}
+
 .home {
   flex-wrap: wrap;
   justify-content: center;

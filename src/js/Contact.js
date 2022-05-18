@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 
+import '../styles/Contact.css'
+
 export function Contact() {
 	const [status, setStatus] = useState("Submit")
+
 	const handleSubmit = async (e) => {
 		e.preventDefault()
 		setStatus("Sending...")
+
 		const { name, email, message } = e.target.elements;
+
 		let details = {
 			name: name.value,
 			email: email.value,
@@ -22,6 +27,7 @@ export function Contact() {
 		let result = await response.json()
 		alert(result.status)
 	}
+
 	return (
 		<div className="contact">
 			<form onSubmit={handleSubmit}>
