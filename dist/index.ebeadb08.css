@@ -217,10 +217,6 @@ button:hover {
 }
 
 .description {
-  display: none;
-}
-
-.current {
   text-align: center;
   flex-direction: column;
   display: flex;

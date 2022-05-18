@@ -13,10 +13,6 @@
 }
 
 .description{
-	display: none;
-}
-
-.current{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -27,9 +23,3 @@
 	font-size: clamp(20px, 2vw, 30px);
 	overflow: hidden;
 }
-
-/*@media screen and (min-width: 53em) {
-	canvas{
-		width: 30vw;
-	}
-}*/
