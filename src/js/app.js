@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import '../styles/App.css'
 import '../styles/Navbar.css'
@@ -10,9 +10,10 @@ import { Contact } from './Contact.js'
 
 
 export function App() {
+
 	return (
 		<div className="App">
-			
+
 			{/*Borders*/}
 			<div className="border border-top"></div>
 			<div className="border border-right"></div>
@@ -34,7 +35,7 @@ export function App() {
 			
 			<small>jadeEd_2022</small>
 		</div>
-	)
+	);
 }
 
 function Navbar() {

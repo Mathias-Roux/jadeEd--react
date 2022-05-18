@@ -27057,6 +27057,7 @@ parcelHelpers.export(exports, "App", ()=>App
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _appCss = require("../styles/App.css");
 var _navbarCss = require("../styles/Navbar.css");
@@ -27072,28 +27073,28 @@ function App() {
                 className: "border border-top"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-right"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-bottom"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-left"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -27105,18 +27106,18 @@ function App() {
                         children: "jadeEd"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(Navbar, {}, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
@@ -27126,7 +27127,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeJs.Home, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27134,7 +27135,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aboutJs.About, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27142,7 +27143,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_productsJs.Products, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 31,
+                        lineNumber: 32,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27150,26 +27151,26 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_contactJs.Contact, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 32,
+                        lineNumber: 33,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 28,
+                lineNumber: 29,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("small", {
                 children: "jadeEd_2022"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 3
     }, this);
 }
@@ -27183,7 +27184,7 @@ function Navbar() {
                 children: "About"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27191,7 +27192,7 @@ function Navbar() {
                 children: "Products"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27199,13 +27200,13 @@ function Navbar() {
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 3
     }, this);
 }
@@ -70328,6 +70329,7 @@ parcelHelpers.export(exports, "Home", ()=>Home
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _reactRouterDom = require("react-router-dom");
 var _gsap = require("gsap");
 var _reactSpline = require("@splinetool/react-spline");
 var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
@@ -70340,7 +70342,7 @@ function Home() {
                 scene: "https://prod.spline.design/nBAbTyeZ3Nj3esfW/scene.splinecode"
             }, void 0, false, {
                 fileName: "src/js/Home.js",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -70351,7 +70353,7 @@ function Home() {
                         children: "Jade is well known for its ornamental"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 16,
+                        lineNumber: 18,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -70359,19 +70361,27 @@ function Home() {
                         children: "use in Asian and Latin American art"
                     }, void 0, false, {
                         fileName: "src/js/Home.js",
-                        lineNumber: 17,
+                        lineNumber: 19,
                         columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                        to: "/products",
+                        children: "My creations"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 20,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Home.js",
-                lineNumber: 15,
+                lineNumber: 17,
                 columnNumber: 6
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Home.js",
-        lineNumber: 13,
+        lineNumber: 15,
         columnNumber: 4
     }, this);
 }
@@ -70384,7 +70394,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr","gsap":"fPSuC"}],"1l6sr":[function() {},{}],"fPSuC":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr","gsap":"fPSuC","react-router-dom":"fdOAw"}],"1l6sr":[function() {},{}],"fPSuC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "gsap", ()=>gsapWithCSS

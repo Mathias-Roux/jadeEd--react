@@ -1,4 +1,6 @@
 import * as React from 'react'
+import { Link } from 'react-router-dom'
+
 import { gsap } from "gsap";
 
 import Spline from '@splinetool/react-spline';
@@ -15,6 +17,7 @@ export function Home() {
     	<div className="description one">
     		<p className="paragraph">Jade is well known for its ornamental</p>
     		<p className="paragraph">use in Asian and Latin American art</p>
+        <Link to="/products">My creations</Link>
     	</div>
   	</section>
   );
