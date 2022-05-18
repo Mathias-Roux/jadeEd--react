@@ -7,15 +7,6 @@ const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
 
 export function Products() {
-	// const [myObj, setMyObj] = useState(null)
-
-  	// const onLoad = (spline) => {
-   //  	const obj = spline.findObjectById('cdd02075-2de9-429e-a895-cc7f3fb279c1')
-
-   //  	setMyObj(obj)
-  	// }
-
-
 	return (
 		<section className="products">
 			<div className="card">
