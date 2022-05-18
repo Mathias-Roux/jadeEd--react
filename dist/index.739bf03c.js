@@ -27073,28 +27073,28 @@ function App() {
                 className: "border border-top"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 18,
+                lineNumber: 16,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-right"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 19,
+                lineNumber: 17,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-bottom"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 20,
+                lineNumber: 18,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                 className: "border border-left"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 21,
+                lineNumber: 19,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -27106,18 +27106,18 @@ function App() {
                         children: "jadeEd"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 24,
+                        lineNumber: 22,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(Navbar, {}, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 25,
+                        lineNumber: 23,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
@@ -27127,7 +27127,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeJs.Home, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 30,
+                        lineNumber: 28,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27135,7 +27135,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aboutJs.About, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 31,
+                        lineNumber: 29,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27143,7 +27143,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_productsJs.Products, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 32,
+                        lineNumber: 30,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -27151,26 +27151,26 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_contactJs.Contact, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 33,
+                        lineNumber: 31,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 29,
+                lineNumber: 27,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("small", {
                 children: "jadeEd_2022"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 36,
+                lineNumber: 34,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 15,
+        lineNumber: 13,
         columnNumber: 3
     }, this);
 }
@@ -27184,7 +27184,7 @@ function Navbar() {
                 children: "About"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 44,
+                lineNumber: 42,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27192,7 +27192,7 @@ function Navbar() {
                 children: "Products"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 45,
+                lineNumber: 43,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27200,13 +27200,13 @@ function Navbar() {
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 46,
+                lineNumber: 44,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 43,
+        lineNumber: 41,
         columnNumber: 3
     }, this);
 }
@@ -27365,11 +27365,18 @@ parcelHelpers.export(exports, "Products", ()=>Products
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _productsCss = require("../styles/Products.css");
 var _cardCss = require("../styles/Card.css");
-var _reactSpline = require("@splinetool/react-spline");
-var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
+const Spline = /*#__PURE__*/ _reactDefault.default.lazy(()=>require("38486c1a916d887d")
+);
+_c = Spline;
 function Products() {
+    // const [myObj, setMyObj] = useState(null)
+    // const onLoad = (spline) => {
+    //  	const obj = spline.findObjectById('cdd02075-2de9-429e-a895-cc7f3fb279c1')
+    //  	setMyObj(obj)
+    // }
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
         className: "products",
         children: [
@@ -27384,7 +27391,7 @@ function Products() {
                                 children: "Jade perls bracelet >"
                             }, void 0, false, {
                                 fileName: "src/js/Products.js",
-                                lineNumber: 14,
+                                lineNumber: 23,
                                 columnNumber: 6
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -27392,26 +27399,35 @@ function Products() {
                                 children: "59$"
                             }, void 0, false, {
                                 fileName: "src/js/Products.js",
-                                lineNumber: 15,
+                                lineNumber: 24,
                                 columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/js/Products.js",
-                        lineNumber: 13,
+                        lineNumber: 22,
                         columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
-                        scene: "https://prod.spline.design/RPbjpf3iVW6Jp6XI/scene.splinecode"
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_react.Suspense, {
+                        fallback: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: "Loading..."
+                        }, void 0, false, void 0, void 0),
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(Spline, {
+                            scene: "https://prod.spline.design/RPbjpf3iVW6Jp6XI/scene.splinecode"
+                        }, void 0, false, {
+                            fileName: "src/js/Products.js",
+                            lineNumber: 27,
+                            columnNumber: 6
+                        }, this)
                     }, void 0, false, {
                         fileName: "src/js/Products.js",
-                        lineNumber: 17,
+                        lineNumber: 26,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Products.js",
-                lineNumber: 12,
+                lineNumber: 21,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -27425,7 +27441,7 @@ function Products() {
                                 children: "Fancy block & rings >"
                             }, void 0, false, {
                                 fileName: "src/js/Products.js",
-                                lineNumber: 21,
+                                lineNumber: 32,
                                 columnNumber: 6
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
@@ -27433,45 +27449,294 @@ function Products() {
                                 children: "129$"
                             }, void 0, false, {
                                 fileName: "src/js/Products.js",
-                                lineNumber: 22,
+                                lineNumber: 33,
                                 columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/js/Products.js",
-                        lineNumber: 20,
+                        lineNumber: 31,
                         columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
-                        scene: "https://prod.spline.design/moFrVGBi2taw8hnc/scene.splinecode"
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_react.Suspense, {
+                        fallback: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: "Loading..."
+                        }, void 0, false, void 0, void 0),
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(Spline, {
+                            scene: "https://prod.spline.design/moFrVGBi2taw8hnc/scene.splinecode"
+                        }, void 0, false, {
+                            fileName: "src/js/Products.js",
+                            lineNumber: 36,
+                            columnNumber: 6
+                        }, this)
                     }, void 0, false, {
                         fileName: "src/js/Products.js",
-                        lineNumber: 24,
+                        lineNumber: 35,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/Products.js",
-                lineNumber: 19,
+                lineNumber: 30,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/Products.js",
-        lineNumber: 11,
+        lineNumber: 20,
         columnNumber: 3
     }, this);
 }
-_c = Products;
-var _c;
-$RefreshReg$(_c, "Products");
+_c1 = Products;
+var _c, _c1;
+$RefreshReg$(_c, "Spline");
+$RefreshReg$(_c1, "Products");
 
   $parcel$ReactRefreshHelpers$b3fb.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Products.css":"66ZI4","../styles/Card.css":"hCUBW","@splinetool/react-spline":"hmtzL"}],"66ZI4":[function() {},{}],"hCUBW":[function() {},{}],"hmtzL":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Products.css":"66ZI4","../styles/Card.css":"hCUBW","38486c1a916d887d":"1sS6W"}],"66ZI4":[function() {},{}],"hCUBW":[function() {},{}],"1sS6W":[function(require,module,exports) {
+module.exports = Promise.resolve(module.bundle.root("hmtzL"));
+
+},{}],"aSBCT":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$76fd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$76fd.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Contact", ()=>Contact
+);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _contactCss = require("../styles/Contact.css");
+var _s = $RefreshSig$();
+function Contact() {
+    _s();
+    const [status, setStatus] = _react.useState("Submit");
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name , email , message  } = e.target.elements;
+        let details = {
+            name: name.value,
+            email: email.value,
+            message: message.value
+        };
+        let response = await fetch("http://localhost:1234/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "appliction/json;charset=utf-8"
+            },
+            body: JSON.stringify(details)
+        });
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        className: "contact",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+            onSubmit: handleSubmit,
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                            htmlFor: "name",
+                            children: "Name:"
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 35,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            type: "text",
+                            id: "name",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 36,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 34,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                            htmlFor: "email",
+                            children: "Email:"
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 39,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            type: "email",
+                            id: "email",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 40,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 38,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                            htmlFor: "message",
+                            children: "Message:"
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 43,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
+                            id: "message",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/js/Contact.js",
+                            lineNumber: 44,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 42,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    type: "submit",
+                    children: status
+                }, void 0, false, {
+                    fileName: "src/js/Contact.js",
+                    lineNumber: 46,
+                    columnNumber: 10
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/js/Contact.js",
+            lineNumber: 33,
+            columnNumber: 4
+        }, this)
+    }, void 0, false, {
+        fileName: "src/js/Contact.js",
+        lineNumber: 32,
+        columnNumber: 3
+    }, this);
+}
+_s(Contact, "qESKK7LDpFTuMSR0UrKu+hcLdmU=");
+_c = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$76fd.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Contact.css":"d0CXE"}],"d0CXE":[function() {},{}],"9GqgQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1d85 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1d85.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Home", ()=>Home
+);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _gsap = require("gsap");
+var _reactSpline = require("@splinetool/react-spline");
+var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
+var _homeCss = require("../styles/Home.css");
+var _s = $RefreshSig$();
+function Home() {
+    _s();
+    const [myObj, setMyObj] = _react.useState(null);
+    const onLoad = (spline)=>{
+        const obj = spline.findObjectById('cdd02075-2de9-429e-a895-cc7f3fb279c1');
+        setMyObj(obj);
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
+        className: "home",
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
+                scene: "https://prod.spline.design/nBAbTyeZ3Nj3esfW/scene.splinecode",
+                onLoad: onLoad
+            }, void 0, false, {
+                fileName: "src/js/Home.js",
+                lineNumber: 22,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "description one",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "paragraph",
+                        children: "Jade is well known for its ornamental"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        className: "paragraph",
+                        children: "use in Asian and Latin American art"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                        to: "/products",
+                        children: "My creations"
+                    }, void 0, false, {
+                        fileName: "src/js/Home.js",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/Home.js",
+                lineNumber: 26,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/js/Home.js",
+        lineNumber: 21,
+        columnNumber: 5
+    }, this);
+}
+_s(Home, "l40yF+DEVqwzIuI5StE9ovmJZ1M=");
+_c = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  $parcel$ReactRefreshHelpers$1d85.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr","gsap":"fPSuC","react-router-dom":"fdOAw"}],"hmtzL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Spline
@@ -70168,233 +70433,7 @@ module.exports = function(loader, type) {
     };
 };
 
-},{}],"aSBCT":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$76fd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$76fd.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Contact", ()=>Contact
-);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _contactCss = require("../styles/Contact.css");
-var _s = $RefreshSig$();
-function Contact() {
-    _s();
-    const [status, setStatus] = _react.useState("Submit");
-    const handleSubmit = async (e)=>{
-        e.preventDefault();
-        setStatus("Sending...");
-        const { name , email , message  } = e.target.elements;
-        let details = {
-            name: name.value,
-            email: email.value,
-            message: message.value
-        };
-        let response = await fetch("http://localhost:1234/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "appliction/json;charset=utf-8"
-            },
-            body: JSON.stringify(details)
-        });
-        setStatus("Submit");
-        let result = await response.json();
-        alert(result.status);
-    };
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        className: "contact",
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
-            onSubmit: handleSubmit,
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
-                            htmlFor: "name",
-                            children: "Name:"
-                        }, void 0, false, {
-                            fileName: "src/js/Contact.js",
-                            lineNumber: 35,
-                            columnNumber: 12
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                            type: "text",
-                            id: "name",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/js/Contact.js",
-                            lineNumber: 36,
-                            columnNumber: 12
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/js/Contact.js",
-                    lineNumber: 34,
-                    columnNumber: 10
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
-                            htmlFor: "email",
-                            children: "Email:"
-                        }, void 0, false, {
-                            fileName: "src/js/Contact.js",
-                            lineNumber: 39,
-                            columnNumber: 12
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                            type: "email",
-                            id: "email",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/js/Contact.js",
-                            lineNumber: 40,
-                            columnNumber: 12
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/js/Contact.js",
-                    lineNumber: 38,
-                    columnNumber: 10
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
-                            htmlFor: "message",
-                            children: "Message:"
-                        }, void 0, false, {
-                            fileName: "src/js/Contact.js",
-                            lineNumber: 43,
-                            columnNumber: 12
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
-                            id: "message",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/js/Contact.js",
-                            lineNumber: 44,
-                            columnNumber: 12
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/js/Contact.js",
-                    lineNumber: 42,
-                    columnNumber: 10
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                    type: "submit",
-                    children: status
-                }, void 0, false, {
-                    fileName: "src/js/Contact.js",
-                    lineNumber: 46,
-                    columnNumber: 10
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/js/Contact.js",
-            lineNumber: 33,
-            columnNumber: 4
-        }, this)
-    }, void 0, false, {
-        fileName: "src/js/Contact.js",
-        lineNumber: 32,
-        columnNumber: 3
-    }, this);
-}
-_s(Contact, "qESKK7LDpFTuMSR0UrKu+hcLdmU=");
-_c = Contact;
-var _c;
-$RefreshReg$(_c, "Contact");
-
-  $parcel$ReactRefreshHelpers$76fd.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/Contact.css":"d0CXE"}],"d0CXE":[function() {},{}],"9GqgQ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1d85 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1d85.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Home", ()=>Home
-);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactRouterDom = require("react-router-dom");
-var _gsap = require("gsap");
-var _reactSpline = require("@splinetool/react-spline");
-var _reactSplineDefault = parcelHelpers.interopDefault(_reactSpline);
-var _homeCss = require("../styles/Home.css");
-function Home() {
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("section", {
-        className: "home",
-        children: [
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactSplineDefault.default, {
-                scene: "https://prod.spline.design/nBAbTyeZ3Nj3esfW/scene.splinecode"
-            }, void 0, false, {
-                fileName: "src/js/Home.js",
-                lineNumber: 16,
-                columnNumber: 6
-            }, this),
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "description one",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "paragraph",
-                        children: "Jade is well known for its ornamental"
-                    }, void 0, false, {
-                        fileName: "src/js/Home.js",
-                        lineNumber: 18,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "paragraph",
-                        children: "use in Asian and Latin American art"
-                    }, void 0, false, {
-                        fileName: "src/js/Home.js",
-                        lineNumber: 19,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                        to: "/products",
-                        children: "My creations"
-                    }, void 0, false, {
-                        fileName: "src/js/Home.js",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/Home.js",
-                lineNumber: 17,
-                columnNumber: 6
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/js/Home.js",
-        lineNumber: 15,
-        columnNumber: 4
-    }, this);
-}
-_c = Home;
-var _c;
-$RefreshReg$(_c, "Home");
-
-  $parcel$ReactRefreshHelpers$1d85.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@splinetool/react-spline":"hmtzL","../styles/Home.css":"1l6sr","gsap":"fPSuC","react-router-dom":"fdOAw"}],"1l6sr":[function() {},{}],"fPSuC":[function(require,module,exports) {
+},{}],"1l6sr":[function() {},{}],"fPSuC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "gsap", ()=>gsapWithCSS

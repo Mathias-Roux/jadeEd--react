@@ -8,9 +8,7 @@ import { About } from './About.js'
 import { Products } from './Products.js'
 import { Contact } from './Contact.js'
 
-
 export function App() {
-
 	return (
 		<div className="App">
 
