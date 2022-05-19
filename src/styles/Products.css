@@ -3,3 +3,26 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
+.loading{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.loading::after{
+	content: '';
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	animation: example 2s ease infinite;
+}
+
+@keyframes example {
+  0% {left: 40%;}
+  50% {left: 60%;}
+  100% {left:40%;}
+}

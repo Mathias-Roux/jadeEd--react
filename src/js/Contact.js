@@ -40,7 +40,7 @@ export function Contact() {
 			        <input type="email" id="email" required />
       			</div>
       			<div>
-			        <label htmlFor="message">Message:</label>
+			        <label htmlFor="message">Command:</label>
 			        <textarea id="message" required />
       			</div>
       			<button type="submit">{status}</button>
