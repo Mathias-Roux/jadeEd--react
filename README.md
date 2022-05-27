@@ -1,4 +1,4 @@
-# jadeEd
+# jadeEd ⽟
 
 jadeEd is a fourth pages wesite mad with React, Spline3d and Gsap.
 
@@ -17,12 +17,9 @@ https://user-images.githubusercontent.com/77239935/169312982-19dc95ab-72cb-4e9f-
 https://user-images.githubusercontent.com/77239935/169315149-d6882fec-47e5-4501-8ab9-7bd3ca0bb18a.mov
 
 
-
-...
-install dependencies: npm install
-
-start localhost: npm start
-build: npm build
+##### Install dependencies: npm install
+##### Start localhost: npm start
+##### Build: npm build
 
 
 
