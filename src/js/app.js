@@ -32,6 +32,7 @@ export function App() {
 			</Routes>	
 			
 			<small>jadeEd_2022</small>
+			<Link className="signature" to="http://www.mathiasroux.site">mathiasRoux</Link>
 		</div>
 	);
 }

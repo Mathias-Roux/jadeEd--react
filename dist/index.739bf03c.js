@@ -27166,6 +27166,15 @@ function App() {
                 fileName: "src/js/App.js",
                 lineNumber: 34,
                 columnNumber: 4
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                className: "signature",
+                to: "http://www.mathiasroux.site",
+                children: "mathiasRoux"
+            }, void 0, false, {
+                fileName: "src/js/App.js",
+                lineNumber: 35,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
@@ -27184,7 +27193,7 @@ function Navbar() {
                 children: "About"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27192,7 +27201,7 @@ function Navbar() {
                 children: "Products"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
@@ -27200,13 +27209,13 @@ function Navbar() {
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 3
     }, this);
 }

@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Square+Peg&display=swap";
 #app {
   width: 95vw;
   height: 97vh;
@@ -54,6 +55,21 @@ small {
   position: absolute;
   bottom: 10px;
   left: 15px;
+}
+
+.signature {
+  color: #000;
+  opacity: .6;
+  font-family: Square Peg, cursive;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 1%;
+  right: 2.2%;
+}
+
+.signature a:visited {
+  color: #000;
 }
 
 *, :before, :after {
